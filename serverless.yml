@@ -3,7 +3,7 @@ service: basic-serverless-lambda
 provider:
   name: aws
   runtime: nodejs12.x
-  stage: dev
+  stage: stage
   region: us-east-2
 
 functions:
