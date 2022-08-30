@@ -7,6 +7,9 @@ provider:
   stage: stage
   region: us-east-2
 
+plugins:
+    - ./vendor/bref/bref
+
 functions:
   hello:
     # handler: src/handler.generateRandomNumber
