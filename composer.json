@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bref/bref": "^1.7",
+        "sentry/sdk": "^3.2"
+    }
+}
