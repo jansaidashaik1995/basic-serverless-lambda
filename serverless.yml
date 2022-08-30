@@ -3,7 +3,7 @@ service: basic-serverless-lambda
 provider:
   name: aws
   # runtime: nodejs12.x
-  runtime: lambda-php-74
+  runtime: provided.al2
   stage: stage
   region: us-east-2
 
