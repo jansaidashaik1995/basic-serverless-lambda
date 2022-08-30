@@ -14,7 +14,7 @@ functions:
   hello:
     # handler: src/handler.generateRandomNumber
     handler: public/index.php
+    layers:
+            - ${bref:layer.php-74} # PHP
     timeout: 60 # seconds
     memorySize: 128 # mb
-    layers:
-          - ${bref:layer.php-73}
