@@ -16,3 +16,5 @@ functions:
     handler: public/index.php
     timeout: 60 # seconds
     memorySize: 128 # mb
+    layers:
+          - ${bref:layer.php-73}
